@@ -1,4 +1,5 @@
 # Automation Framework
+## MAVEN - JAVA - CUCUMBER
 
 This framework example using JAVA programming language with integrated Cucumber framework.
 Automatic test used Selenium WebDriver (Chrome, Firefox, Edge, Safari) for executing tests and also this

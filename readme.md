@@ -68,6 +68,12 @@ Selenium WebDriver tool is used to automate web application testing to verify th
 
 However, using the Selenium WebDriver, we can automate testing for web applications only. It does not qualify for window-based applications. It also supports different programming languages such as C#, Java, Perl, PHP and Ruby for writing test scripts. 
 
+In case you are using WebDriver manager and you wnat to use specific version of WebDriver for example Chrome, you can set like this:
+
+```sh
+WebDriverManager.chromedriver().version("87.0.4280.88");
+```
+
 For more, read documentation:
 [Selenium documentation](https://www.seleniumhq.org/docs/)
 

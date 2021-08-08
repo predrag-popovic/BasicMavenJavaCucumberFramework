@@ -36,7 +36,7 @@ public class Setup {
                  */
                 switch (properties.getBrowserType()) {
                     case "CHROME":
-                        WebDriverManager.chromedriver().setup();
+                        WebDriverManager.chromedriver().version("92.0.4515.107");
                         driver = new ChromeDriver();
                         browserMaximize();
                         break;
